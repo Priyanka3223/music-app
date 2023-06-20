@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your favourite playlist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="img">
+                <img src="logo.png" alt="">
+            </li>
+            <li id="bold">Listen</li>
+            <li class="nor"><a id="home" href="/">Home</a></li>
+            <li class="nor">About</li>
+            <li class="nor"><a href="/play">Playlist</a></li>
+        </ul>
+    </nav>
+    <div  class="container">
+        <div id="tdd" class="songList sf">
+            <h1>Your Playlist</h1>
+            <div class="songitem">
+                <img class="img" alt="1">
+                <span class="songname">Nira Ishq</span>
+                <span class="songplay"><span id="tim9">05.34</span><i id="9" class="fa-solid play fa-circle-play"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" value="0" name="range" id="bar" min="0" max="100">
+        <div class="icons" >
+            <i class="fa-solid previous fa-backward" id="prev" style="color: #f7f7f8;"></i>
+            <i class="fa-solid fa-circle-play" id="master" style="color: #fcfcfd;"></i>
+            <i class="fa fa-forward" id="next" style="color: #f4f7fa;"></i>
+            <i class="fa shuf fa-shuffle" id="sh" style="color: #fcfcfc;"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" id="s" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

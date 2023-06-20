@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="img">
+                <img src="logo.png" alt="">
+            </li>
+            <li id="bold">Listen</li>
+            <li class="nor"><a id="home" href="/">Home</a></li>
+            <li class="nor">About</li>
+            <li class="nor"><a id="playlist" href="/play">Playlist</a></li>
+            <li id="login" ><a id="log" href="/login">Log in</a></li>
+            <li id="logout">Log Out</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songList">
+            <h3>Best of NCS - No Copyright Sounds</h3>
+            <div>
+                <div class="songitem">
+                    <img class="img" alt="1">
+                    <span class="songname">Nira Ishq</span>
+                    <span class="songplay"><span id="tim1">05.34</span><i id="1" class="fa-solid play fa-circle-play"></i><i id="add1" class="fa add fa-folder-plus"></i></span>
+                </div>
+                <div class="songitem">
+                    <img class="img" alt="1">
+                    <span class="songname">Nira Ishq</span>
+                    <span class="songplay"><span id="tim2">05.34</span><i id="2" class="fa-solid play fa-circle-play"></i><i id="add2" href="/add" class="fa add fa-folder-plus"></i></span>
+                </div>
+                <div class="songitem">
+                    <img class="img" alt="1">
+                    <span class="songname">Nira Ishq</span>
+                    <span class="songplay"><span id="tim3">05.34</span><i id="3" class="fa-solid play fa-circle-play"></i><i id="add3" class="fa add fa-folder-plus"></i></span>
+                </div>
+                <div class="songitem">
+                    <img class="img" alt="1">
+                    <span class="songname">Nira Ishq</span>
+                    <span class="songplay"><span id="tim4">05.34</span><i id="4" class="fa-solid play fa-circle-play"></i><i id="add4" class="fa add fa-folder-plus"></i></span>
+                </div>
+                <div class="songitem">
+                    <img class="img" alt="1">
+                    <span class="songname">Nira Ishq</span>
+                    <span class="songplay"><span id="tim5">05.34</span><i id="5" class="fa-solid play fa-circle-play"></i><i id="add5" class="fa add fa-folder-plus"></i></span>
+                </div>
+                <div class="songitem">
+                    <img class="img" alt="1">
+                    <span class="songname">Nira Ishq</span>
+                    <span class="songplay"><span id="tim6">05.34</span><i id="6" class="fa-solid play fa-circle-play"></i><i id="add6" class="fa add fa-folder-plus"></i></span>
+                </div>
+                <div class="songitem">
+                    <img class="img" alt="1">
+                    <span class="songname">Nira Ishq</span>
+                    <span class="songplay"><span id="tim7">05.34</span><i id="7" class="fa-solid play fa-circle-play"></i><i id="add7" class="fa add fa-folder-plus"></i></span>
+                </div>
+                <div class="songitem">
+                    <img class="img" alt="1">
+                    <span class="songname">Nira Ishq</span>
+                    <span class="songplay"><span id="tim8">05.34</span><i id="8" class="fa-solid play fa-circle-play"></i><i id="add8" class="fa add fa-folder-plus"></i></span>
+                </div>
+                <div class="songitem">
+                    <img class="img" alt="1">
+                    <span class="songname">Nira Ishq</span>
+                    <span class="songplay"><span id="tim9">05.34</span><i id="9" class="fa-solid play fa-circle-play"></i><i id="add9" class="fa add fa-folder-plus"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" value="0" name="range" id="bar" min="0" max="100">
+        <div class="icons" >
+            <i class="fa-solid previous fa-backward" id="prev" style="color: #f7f7f8;"></i>
+            <i class="fa-solid fa-circle-play" id="master" style="color: #fcfcfd;"></i>
+            <i class="fa fa-forward" id="next" style="color: #f4f7fa;"></i>
+            <i class="fa shuf fa-shuffle" id="sh" style="color: #fcfcfc;"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" id="s" alt="">
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>

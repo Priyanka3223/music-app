@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(246, 231, 205);
+}
+/* navbar */
+.img img{
+    height: 45px;
+    width: 45px;
+    margin: 5px;
+    margin-top: 7px;
+}
+#bold{
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 18px 8px;
+}
+nav ul{
+    display: flex;
+    height: 64px;
+    background-color: black;
+    list-style: none;
+    color: white;
+}
+.nor{
+    margin: 20px 0px;
+    margin-left: 15px;
+}
+.nor a{
+    text-decoration: none;
+    color: white;
+}
+
+/* volume */
+.bottom{
+    position: sticky;
+    background-color: black;
+    height: 75px;
+    margin-bottom: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* container */
+.container{
+    min-height: 70vh;
+    background: url("bg.jpg") center center/cover;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    /* margin-top: 2%; */
+    padding: 10px;
+    width: 70%;
+    /* background-color: aqua; */
+    border-radius: 13px;
+}
+
+/* song list */
+.songitem img{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin: 4px;
+}
+.songitem{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    margin: 5px;
+    border-radius: 17px;
+}
+.icons i{
+    margin: 8px 12px;
+    font-size: 22px;
+}
+.bottom input{
+    width: 80%;
+}
+span{
+    margin: 8px;
+}
+
+.songinfo img{
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+.songinfo{
+    position: absolute;
+    left: 12%;
+    top: 34%;
+    color: white;
+    margin-top: 0;
+}
+#bar{
+    cursor: pointer;
+}
+.shuf{
+    position: absolute;
+    right: 12%;
+}
+i{
+    cursor: pointer;
+}
+
+/* playlist */
+.add{
+    margin-left: 5px;
+}
+
+
+/* login */
+#login{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    margin-top: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    list-style: none;
+}
+#login a{
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+}
+#logout{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    margin-top: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+    display: none;
+}
+#logout a{
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+    font-size: 20px;
+}
